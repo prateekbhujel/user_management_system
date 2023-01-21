@@ -3,8 +3,8 @@
 
     class Database {
 
-        const USERNAME ='pratikbhujel1996@outlook.com';
-        const PASSWORD ='PratikBhujel123';
+        const USERNAME ='your_email_address@outlook.com';//Here I used outlook for email sending because for some reason my gmail didnt did the job.
+        const PASSWORD ='your_password';// Do check the docs of PHP Mailer for more.
         //Data Source Network
         private $dsn = "mysql:host=localhost;dbname=db_user_system";
         private $dbuser = "root";
